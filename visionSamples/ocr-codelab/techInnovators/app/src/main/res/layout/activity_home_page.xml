@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Relative"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="com.google.android.gms.samples.vision.ocrproject.HomePage">
+    <!--<ImageView-->
+        <!--android:id="@+id/image"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:src="@drawable/ncit_logo"-->
+        <!--android:layout_marginTop="150dp"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--/>-->
+    <!--<TextView-->
+        <!--android:id="@+id/appname"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Read Smartly"-->
+        <!--android:textSize="30sp"-->
+        <!--android:layout_below="@+id/image"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--/>-->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout
+            android:id="@+id/camera_open"
+
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="120dp"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:onClick="function"
+            android:layout_margin="5dp"
+
+            android:background="@color/green">
+            
+            <ImageView
+
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+
+                android:src="@drawable/ocr"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="scan the document"
+                />
+                
+            </LinearLayout>
+        <LinearLayout
+            android:id="@+id/aboutus"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="120dp"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_margin="5dp"
+            android:onClick="function"
+            android:background="@color/green">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/aboutus"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="About this app"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
+
+
+    <!--<Button-->
+    <!--android:id="@+id/camera_Button"-->
+    <!--android:layout_width="0dp"-->
+    <!--android:layout_weight="1"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:background="@color/green"-->
+    <!--android:layout_centerInParent="true"-->
+    <!--android:layout_marginRight="1dp"-->
+    <!--android:layout_marginLeft="1dp"-->
+    <!--android:text="scan The Image"-->
+    <!--/>-->
+    <!--<Button-->
+        <!--android:id="@+id/Help_button"-->
+        <!--android:layout_below="@+id/camera_Button"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_marginLeft="1dp"-->
+        <!--android:layout_marginRight="1dp"-->
+        <!--android:layout_weight="1"-->
+        <!--android:background="@color/green"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_centerInParent="true"-->
+        <!--android:text="scan The Image"-->
+    <!--/>-->
